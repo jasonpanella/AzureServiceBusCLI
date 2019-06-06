@@ -17,7 +17,7 @@ dotnet ServiceBusCLI.dll -w -t gb_tasktest -c "Endpoint=sb://azu-eus1-dev-sb-ftg
 
 Cat a json file to a variable for the command line:
 
-$ task=`cat ObjectCreatedEvent.json`
+$ task=`cat ObjectCreatedEvent.json'  --dont forget about the single tick next to the tilda
 
 This command can be used to read an item off a queue to get rid of it.
 
